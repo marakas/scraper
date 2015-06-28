@@ -23,8 +23,8 @@ namespace BasicPageCrawler
             //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/women/tops/t-shirts.html");
             //Uri uriToCrawl = new Uri("http://www.hm.com/us/product/77536?article=77536-C");
             //Uri uriToCrawl = new Uri("http://www.hm.com/us/department/LADIES");
-            //Uri uriToCrawl = new Uri("http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html");
-            Uri uriToCrawl = new Uri("http://www.zara.com/us/");
+            Uri uriToCrawl = new Uri("http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html");
+            //Uri uriToCrawl = new Uri("http://www.zara.com/us/");
             IWebCrawler crawler;
             crawler = GetDefaultWebCrawler();
             
@@ -82,11 +82,16 @@ namespace BasicPageCrawler
                 Console.WriteLine("Page had no content {0}", crawledPage.Uri.AbsoluteUri);
             else
             {
-                indexUniqloPage(crawledPage);
-                indexHMPage(crawledPage);
-                indexZaraPage(crawledPage);
+                var success = indexPages(crawledPage);
             }
-                indexUniqloPage(crawledPage);
+        }
+
+        private static bool indexPages(CrawledPage crawledPage)
+        {
+            if (indexUniqloPage(crawledPage)) return true;
+            if (indexHMPage(crawledPage)) return true;
+            if (indexZaraPage(crawledPage)) return true;
+            return false;
         }
 
         static void crawler_ProcessPageCrawlStarting(object sender, PageCrawlStartingArgs e)
@@ -107,213 +112,41 @@ namespace BasicPageCrawler
             Console.WriteLine("Did not crawl page {0} due to {1}", pageToCrawl.Uri.AbsoluteUri, e.DisallowedReason);
         }
    
-        private static void indexUniqloPage(CrawledPage pageToIndex)
+        
+        private static bool indexUniqloPage(CrawledPage pageToIndex)
         {
-            var h1Tags = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//h1[@itemprop='name']");
-            // find the item name
-            var itemName = "";
-
-            if (h1Tags != null)
+            var uniqloIndexer = new UniqloIndexer(pageToIndex);
+            
+            if (uniqloIndexer.getTitle() && uniqloIndexer.getPrice() && uniqloIndexer.getImage() && uniqloIndexer.getDescription() )
             {
-                foreach (var h1Tag in h1Tags)
-                {
-                    if (h1Tag.Attributes["itemprop"].Value == "name") itemName = h1Tag.InnerHtml;
-                    //Console.WriteLine("tags {0} ", val);
-                }
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", uniqloIndexer.itemName, uniqloIndexer.itemPrice, uniqloIndexer.itemImage, uniqloIndexer.itemDescription);
+                return true;
             }
-            //Console.WriteLine("Item name {0} ", itemName);
-
-            // find the item image
-            var itemImage = "";
-            var imgTags = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//img[@itemprop='image']");
-            if (imgTags != null)
-            {
-                foreach (var imgTag in imgTags)
-                {
-                    if (imgTag.Attributes["itemprop"].Value == "image")
-                    {
-                        if (imgTag.Attributes["src"].Value != "")
-                            itemImage = imgTag.Attributes["src"].Value;
-                    }
-                    //Console.WriteLine("img {0} ", imgTag);
-                }
-            }
-            //Console.WriteLine("Item image {0} ", itemImage);
-
-            // find the item description
-            var itemDescription = "";
-            var imgArticles = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//article[@itemprop='description']");
-            if (imgArticles != null)
-            {
-                foreach (var imgArticle in imgArticles)
-                {
-                    if (imgArticle.Attributes["itemprop"].Value == "description")
-                    {
-                        itemDescription = imgArticle.InnerHtml;
-                    }
-                    //Console.WriteLine("img {0} ", imgTag);
-                }
-            }
-            //Console.WriteLine("Item description {0} ", itemDescription);
-
-            // find the item price
-            var itemPrice = "";
-            var priceDivs = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//div[@itemprop='price']//p");
-            if (priceDivs != null)
-            {
-                foreach (var priceDiv in priceDivs)
-                {
-                    itemPrice = priceDiv.InnerHtml;
-                    //Console.WriteLine("img {0} ", imgTag);
-                }
-            }
-            //Console.WriteLine("Item price {0} ", itemPrice);
-
-            if (itemImage != "" && itemDescription != "" && itemName != "" && itemPrice != "")
-            {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", itemName, itemPrice, itemImage, itemDescription);
-            }
-            //var aTags = document.DocumentNode.SelectNodes("//a");
-            //Console.WriteLine("tags {0} ", pageToIndex.Uri.AbsoluteUri);
+            return false;
         }
 
-        private static void indexHMPage(CrawledPage pageToIndex)
+        private static bool indexHMPage(CrawledPage pageToIndex)
         {
-            var h1Tags = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//h1");
-            // find the item name
-            var itemName = "";
+            var hmIndexer = new HmIndexer(pageToIndex);
 
-            if (h1Tags != null)
+            if (hmIndexer.getTitle() && hmIndexer.getPrice() && hmIndexer.getImage() && hmIndexer.getDescription())
             {
-                foreach (var h1Tag in h1Tags)
-                {
-                    itemName = h1Tag.FirstChild.InnerHtml;
-
-                    //h1Tag.ChildNodes.Remove(h1Tag.LastChild);
-                    //sitemName = h1Tag.InnerHtml;
-                    //Console.WriteLine("tags {0} ", val);
-                }
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", hmIndexer.itemName, hmIndexer.itemPrice, hmIndexer.itemImage, hmIndexer.itemDescription);
+                return true;
             }
-            //Console.WriteLine("Item name {0} ", itemName);
-
-            // find the item image
-            var itemImage = "";
-            var imgTags = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//div[@id='product-image-box']//img[@id='product-image']");
-            if (imgTags != null)
-            {
-                foreach (var imgTag in imgTags)
-                {
-                    if (imgTag.Attributes["src"].Value != "")
-                        itemImage = imgTag.Attributes["src"].Value;
-                    //Console.WriteLine("img {0} ", imgTag);
-                }
-            }
-            //Console.WriteLine("Item image {0} ", itemImage);
-
-            // find the item description
-            var itemDescription = "";
-            var imgArticles = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//div[@class='description']//p");
-            if (imgArticles != null)
-            {
-                foreach (var imgArticle in imgArticles)
-                {
-                    itemDescription += imgArticle.InnerHtml;
-                    //Console.WriteLine("img {0} ", imgTag);
-                }
-            }
-            //Console.WriteLine("Item description {0} ", itemDescription);
-
-            // find the item price
-            var itemPrice = "";
-            var priceDivs = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//span[@id='text-price']//span");
-            if (priceDivs != null)
-            {
-                foreach (var priceDiv in priceDivs)
-                {
-                    itemPrice = priceDiv.InnerHtml;
-                    //Console.WriteLine("img {0} ", imgTag);
-                }
-            }
-            //Console.WriteLine("Item price {0} ", itemPrice);
-
-            if (itemImage != "" && itemDescription != "" && itemName != "" && itemPrice != "")
-            {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", itemName, itemPrice, itemImage, itemDescription);
-            }
-            //var aTags = document.DocumentNode.SelectNodes("//a");
-            //Console.WriteLine("tags {0} ", pageToIndex.Uri.AbsoluteUri);
+            return false;
         }
 
-        private static void indexZaraPage(CrawledPage pageToIndex)
+        private static bool indexZaraPage(CrawledPage pageToIndex)
         {
-            var h1Tags = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//header//h1");
-            // find the item name
-            var itemName = "";
+            var zaraIndexer = new ZaraIndexer(pageToIndex);
 
-            if (h1Tags != null)
+            if (zaraIndexer.getTitle() && zaraIndexer.getPrice() && zaraIndexer.getImage() && zaraIndexer.getDescription())
             {
-                foreach (var h1Tag in h1Tags)
-                {
-                    itemName = h1Tag.FirstChild.InnerHtml;
-
-                    //h1Tag.ChildNodes.Remove(h1Tag.LastChild);
-                    //sitemName = h1Tag.InnerHtml;
-                    //Console.WriteLine("tags {0} ", val);
-                }
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", zaraIndexer.itemName, zaraIndexer.itemPrice, zaraIndexer.itemImage, zaraIndexer.itemDescription);
+                return true;
             }
-            //Console.WriteLine("Item name {0} ", itemName);
-
-            // find the item image
-            var itemImage = "";
-            var imgTags = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//img[@id='bigImage']");
-            if (imgTags != null)
-            {
-                foreach (var imgTag in imgTags)
-                {
-                    if (imgTag.Attributes["data-src"].Value != "")
-                        itemImage = imgTag.Attributes["data-src"].Value;
-                    //Console.WriteLine("img {0} ", imgTag);
-                }
-            }
-            //Console.WriteLine("Item image {0} ", itemImage);
-
-            // find the item description
-            var itemDescription = "";
-            var imgArticles = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//p[@class='description']");
-            if (imgArticles != null)
-            {
-                foreach (var imgArticle in imgArticles)
-                {
-                    itemDescription += imgArticle.InnerHtml;
-                    //Console.WriteLine("img {0} ", imgTag);
-                }
-            }
-            //Console.WriteLine("Item description {0} ", itemDescription);
-
-            // find the item price
-            var itemPrice = "";
-            var priceDivs = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//p[@class='price']//span");
-            //"<span class=\"sale\" data-price=\"25.99  USD\">\r\n\t\t\t\t\t&nbsp;\r\n\t\t\t\t</span>"
-            if (priceDivs != null)
-            {
-                if (priceDivs[0].Attributes["data-price"].Value != "")
-                    itemPrice = priceDivs[0].Attributes["data-price"].Value;
-                /*
-                foreach (var priceDiv in priceDivs)
-                {
-                    itemPrice = priceDiv.FirstChild.InnerHtml;
-                    //Console.WriteLine("img {0} ", imgTag);
-                }
-                */
-            }
-            //Console.WriteLine("Item price {0} ", itemPrice);
-
-            if (itemImage != "" && itemDescription != "" && itemName != "" && itemPrice != "")
-            {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", itemName, itemPrice, itemImage, itemDescription);
-            }
-            //var aTags = document.DocumentNode.SelectNodes("//a");
-            //Console.WriteLine("tags {0} ", pageToIndex.Uri.AbsoluteUri);
+            return false;
         }
     }
 }

@@ -1583,3 +1583,364 @@
 [2015-06-27 22:35:21,987] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/en/sale/trf/stock-clearance-c441025.html] Parent:[http://www.zara.com/us/en/sale/trf-c437642.html] Retry:[0]
 [2015-06-27 22:35:26,664] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/en/sale/woman/outerwear-c437584.html] Parent:[http://www.zara.com/us/en/sale-c643504.html] Retry:[0]
 [2015-06-27 22:35:31,661] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/en/sale/woman/outerwear/bell-sleeve-coat-c437584p2551525.html] Parent:[http://www.zara.com/us/en/sale-c643504.html] Retry:[0]
+[2015-06-28 07:20:36,339] [9  ] [INFO ] - About to crawl site [http://www.zara.com/us/]
+[2015-06-28 07:20:36,354] [9  ] [INFO ] - Configuration Values:
+[2015-06-28 07:20:36,354] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-06-28 07:20:36,355] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-28 07:20:36,355] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-06-28 07:20:36,355] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-28 07:20:36,355] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-28 07:20:36,355] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-28 07:20:36,355] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-28 07:20:36,355] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-28 07:20:36,356] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-28 07:20:36,356] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-28 07:20:36,356] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-28 07:20:36,356] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-28 07:20:36,356] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-28 07:20:36,356] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-28 07:20:36,356] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-28 07:20:36,356] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-28 07:20:36,356] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-28 07:20:36,357] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-28 07:20:36,357] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-28 07:20:36,357] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-28 07:20:36,357] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-28 07:20:36,357] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-28 07:20:36,357] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-28 07:20:36,358] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-06-28 07:20:36,359] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-28 07:20:36,359] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-28 07:20:36,360] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-28 07:20:36,360] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-28 07:20:36,361] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-28 07:20:36,362] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-28 07:20:36,362] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-06-28 07:20:36,362] [9  ] [INFO ] -   key1: value1
+[2015-06-28 07:20:36,363] [9  ] [INFO ] -   key2: value2
+[2015-06-28 07:20:36,673] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/] Parent:[http://www.zara.com/us/] Retry:[0]
+[2015-06-28 07:35:44,066] [9  ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html]
+[2015-06-28 07:35:44,081] [9  ] [INFO ] - Configuration Values:
+[2015-06-28 07:35:44,081] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-06-28 07:35:44,081] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   key1: value1
+[2015-06-28 07:35:44,097] [9  ] [INFO ] -   key2: value2
+[2015-06-28 07:35:46,207] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Parent:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Retry:[0]
+[2015-06-28 07:36:51,113] [8  ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html]
+[2015-06-28 07:36:51,128] [8  ] [INFO ] - Configuration Values:
+[2015-06-28 07:36:51,128] [8  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-06-28 07:36:51,128] [8  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-28 07:36:51,128] [8  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-06-28 07:36:51,128] [8  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-28 07:36:51,128] [8  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   MaxRetryCount: 0
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   key1: value1
+[2015-06-28 07:36:51,144] [8  ] [INFO ] -   key2: value2
+[2015-06-28 07:36:51,425] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Parent:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Retry:[0]
+[2015-06-28 07:44:09,578] [10 ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html]
+[2015-06-28 07:44:09,593] [10 ] [INFO ] - Configuration Values:
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-28 07:44:09,593] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-06-28 07:44:09,609] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-28 07:44:09,609] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-28 07:44:09,609] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-28 07:44:09,609] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-28 07:44:09,609] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-28 07:44:09,609] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-28 07:44:09,609] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-06-28 07:44:09,609] [10 ] [INFO ] -   key1: value1
+[2015-06-28 07:44:09,609] [10 ] [INFO ] -   key2: value2
+[2015-06-28 07:44:09,797] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Parent:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Retry:[0]
+[2015-06-28 07:55:27,273] [9  ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html]
+[2015-06-28 07:55:27,288] [9  ] [INFO ] - Configuration Values:
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-28 07:55:27,288] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-28 07:55:27,304] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-28 07:55:27,304] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-28 07:55:27,304] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-28 07:55:27,304] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-28 07:55:27,304] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-06-28 07:55:27,304] [9  ] [INFO ] -   key1: value1
+[2015-06-28 07:55:27,304] [9  ] [INFO ] -   key2: value2
+[2015-06-28 07:55:28,904] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Parent:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Retry:[0]
+[2015-06-28 07:55:32,652] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/stores.html] Parent:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Retry:[0]
+[2015-06-28 08:05:50,960] [10 ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html]
+[2015-06-28 08:05:50,960] [10 ] [INFO ] - Configuration Values:
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-28 08:05:50,960] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-28 08:05:50,976] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-06-28 08:05:50,976] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-28 08:05:50,976] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-28 08:05:50,976] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-28 08:05:50,976] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-28 08:05:50,976] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-28 08:05:50,976] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-28 08:05:50,976] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-06-28 08:05:50,976] [10 ] [INFO ] -   key1: value1
+[2015-06-28 08:05:50,976] [10 ] [INFO ] -   key2: value2
+[2015-06-28 08:05:51,210] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Parent:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Retry:[0]
+[2015-06-28 08:06:21,417] [9  ] [INFO ] - About to crawl site [http://www.hm.com/us/product/77536?article=77536-C]
+[2015-06-28 08:06:21,433] [9  ] [INFO ] - Configuration Values:
+[2015-06-28 08:06:21,433] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-06-28 08:06:21,433] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-28 08:06:21,433] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   key1: value1
+[2015-06-28 08:06:21,448] [9  ] [INFO ] -   key2: value2
+[2015-06-28 08:06:22,370] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.hm.com/us/product/77536?article=77536-C] Parent:[http://www.hm.com/us/product/77536?article=77536-C] Retry:[0]
+[2015-06-28 08:21:53,351] [9  ] [INFO ] - About to crawl site [http://www.hm.com/us/product/77536?article=77536-C]
+[2015-06-28 08:21:53,366] [9  ] [INFO ] - Configuration Values:
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   key1: value1
+[2015-06-28 08:21:53,366] [9  ] [INFO ] -   key2: value2
+[2015-06-28 08:21:54,577] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.hm.com/us/product/77536?article=77536-C] Parent:[http://www.hm.com/us/product/77536?article=77536-C] Retry:[0]
+[2015-06-28 08:22:20,776] [9  ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html]
+[2015-06-28 08:22:20,792] [9  ] [INFO ] - Configuration Values:
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   key1: value1
+[2015-06-28 08:22:20,792] [9  ] [INFO ] -   key2: value2
+[2015-06-28 08:22:21,980] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Parent:[http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html] Retry:[0]
+[2015-06-28 08:22:40,110] [10 ] [INFO ] - About to crawl site [http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html]
+[2015-06-28 08:22:40,125] [10 ] [INFO ] - Configuration Values:
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   key1: value1
+[2015-06-28 08:22:40,125] [10 ] [INFO ] -   key2: value2
+[2015-06-28 08:22:40,895] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html] Parent:[http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html] Retry:[0]
