@@ -34,6 +34,19 @@ namespace BasicPageCrawler
             crawler.PageCrawlCompletedAsync += crawler_ProcessPageCrawlCompleted;
             crawler.PageCrawlDisallowedAsync += crawler_PageCrawlDisallowed;
             crawler.PageLinksCrawlDisallowedAsync += crawler_PageLinksCrawlDisallowed;
+            /*
+            using (SqlConnection conn = new SqlConnection())
+            {
+                conn.ConnectionString = "Server=[localhost];Database=[database_name];Trusted_Connection=true";
+                // using the code here...
+            }
+
+            using (SqlConnection connection = new SqlConnection("Integrated Security=SSPI;Initial Catalog=Northwind"))
+            {
+                connection.Open();
+                // Pool A is created.
+            }
+             * */
 
             //Start the crawl
             //This is a synchronous call
@@ -88,9 +101,67 @@ namespace BasicPageCrawler
 
         private static bool indexPages(CrawledPage crawledPage)
         {
-            if (indexUniqloPage(crawledPage)) return true;
-            if (indexHMPage(crawledPage)) return true;
-            if (indexZaraPage(crawledPage)) return true;
+            ClothingItem item = new ClothingItem() ;
+            if (indexUniqloPage(crawledPage, ref item))
+            {
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", item.itemName, item.itemPrice, item.itemImage, item.itemDescription);
+                return true;
+            }
+            if (indexHMPage(crawledPage, ref item))
+            {
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", item.itemName, item.itemPrice, item.itemImage, item.itemDescription);
+                return true;
+            }
+            if (indexZaraPage(crawledPage, ref item))
+            {
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", item.itemName, item.itemPrice, item.itemImage, item.itemDescription);
+                return true;
+            }
+            return false;
+        }
+        
+        private static bool indexUniqloPage(CrawledPage pageToIndex, ref ClothingItem item )
+        {
+            var indexer = new UniqloIndexer(pageToIndex);
+            
+            if (indexer.getTitle() && indexer.getPrice() && indexer.getImage() && indexer.getDescription() )
+            {
+                item.itemName = indexer.itemName;
+                item.itemPrice = indexer.itemPrice;
+                item.itemImage = indexer.itemImage;
+                item.itemDescription = indexer.itemDescription;
+                return true;
+            }
+            return false;
+        }
+
+        private static bool indexHMPage(CrawledPage pageToIndex, ref ClothingItem item)
+        {
+            var indexer = new HmIndexer(pageToIndex);
+
+            if (indexer.getTitle() && indexer.getPrice() && indexer.getImage() && indexer.getDescription())
+            {
+                item.itemName = indexer.itemName;
+                item.itemPrice = indexer.itemPrice;
+                item.itemImage = indexer.itemImage;
+                item.itemDescription = indexer.itemDescription;
+                return true;
+            }
+            return false;
+        }
+
+        private static bool indexZaraPage(CrawledPage pageToIndex, ref ClothingItem item)
+        {
+            var indexer = new ZaraIndexer(pageToIndex);
+
+            if (indexer.getTitle() && indexer.getPrice() && indexer.getImage() && indexer.getDescription())
+            {
+                item.itemName = indexer.itemName;
+                item.itemPrice = indexer.itemPrice;
+                item.itemImage = indexer.itemImage;
+                item.itemDescription = indexer.itemDescription;
+                return true;
+            }
             return false;
         }
 
@@ -112,41 +183,5 @@ namespace BasicPageCrawler
             Console.WriteLine("Did not crawl page {0} due to {1}", pageToCrawl.Uri.AbsoluteUri, e.DisallowedReason);
         }
    
-        
-        private static bool indexUniqloPage(CrawledPage pageToIndex)
-        {
-            var uniqloIndexer = new UniqloIndexer(pageToIndex);
-            
-            if (uniqloIndexer.getTitle() && uniqloIndexer.getPrice() && uniqloIndexer.getImage() && uniqloIndexer.getDescription() )
-            {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", uniqloIndexer.itemName, uniqloIndexer.itemPrice, uniqloIndexer.itemImage, uniqloIndexer.itemDescription);
-                return true;
-            }
-            return false;
-        }
-
-        private static bool indexHMPage(CrawledPage pageToIndex)
-        {
-            var hmIndexer = new HmIndexer(pageToIndex);
-
-            if (hmIndexer.getTitle() && hmIndexer.getPrice() && hmIndexer.getImage() && hmIndexer.getDescription())
-            {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", hmIndexer.itemName, hmIndexer.itemPrice, hmIndexer.itemImage, hmIndexer.itemDescription);
-                return true;
-            }
-            return false;
-        }
-
-        private static bool indexZaraPage(CrawledPage pageToIndex)
-        {
-            var zaraIndexer = new ZaraIndexer(pageToIndex);
-
-            if (zaraIndexer.getTitle() && zaraIndexer.getPrice() && zaraIndexer.getImage() && zaraIndexer.getDescription())
-            {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", zaraIndexer.itemName, zaraIndexer.itemPrice, zaraIndexer.itemImage, zaraIndexer.itemDescription);
-                return true;
-            }
-            return false;
-        }
     }
 }

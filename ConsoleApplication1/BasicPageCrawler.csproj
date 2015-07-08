@@ -71,6 +71,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClothingItem.cs" />
     <Compile Include="GenericIndexer.cs" />
     <Compile Include="HmIndexer.cs" />
     <Compile Include="Program.cs" />
