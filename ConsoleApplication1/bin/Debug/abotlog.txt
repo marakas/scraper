@@ -2356,3 +2356,162 @@
 [2015-07-08 15:21:10,768] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/webapp/wcs/stores/servlet/ShopGuideView?catalogId=25055&fts=9&langId=-5&storeId=11719] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
 [2015-07-08 15:21:15,734] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/apps-c362004.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
 [2015-07-08 15:21:21,184] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/empresa/nuestro-compromiso-c18001.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:21:25,526] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/empresa-c11112.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:21:30,415] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/empresa/oficinas-c18002.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:21:35,517] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/tiendas-c11108.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:21:40,444] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/empresa/trabaja-con-nosotros-c18003.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:21:45,438] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/contacto-c11113.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:21:50,882] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/en/rebajas%252Fmujer%252Fcamisas%252Fver-todo%252Ftop-bordados-a-contraste-c732008p2709538.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:21:56,344] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas-c643504.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:00,520] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer-c437525.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:07,407] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/camisas-c437590.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:10,525] [4  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/camisas/ver-todo-c732008.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:15,488] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/abrigos-c437584.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:21,740] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/chaquetas-c437599.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:26,092] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/vestidos-c437631.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:31,519] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/monos-c437616.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:36,972] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/camisas/camisas-c541542.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:42,299] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/camisas/estampada-c744507.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:47,377] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/camisas/lisas-c732010.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:52,552] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/pantalones-c437617.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:22:56,828] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/jeans-c437611.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:01,198] [4  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/faldas-c437604.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:05,931] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/shorts-c437629.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:11,806] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/punto-c437626.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:16,674] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/camisetas-c437595.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:20,804] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/zapatos-c541568.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:26,446] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/bolsos-c541579.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:31,375] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/accesorios-c437585.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:35,642] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/desde--50-c706718.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:44,620] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/ultimas-tallas-c441024.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:45,894] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/trf-c437642.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:51,341] [4  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/hombre-c436020.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:23:55,943] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/ni%C3%B1os-c436012.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:01,652] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/colecci%C3%B3n-aw15-c436004.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:06,509] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/lookbook-c367001.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:11,344] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/trends-c720002.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:16,326] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/pictures-c580009.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:21,345] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/brothers---sisters-c593003.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:26,045] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/campa%C3%B1a-c362003.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:31,080] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/tarjeta-regalo-c295501.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:36,271] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/info-c194501.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:41,090] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/prensa-c11111.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:45,991] [4  ] [INFO ] - Page crawl complete, Status:[404] Url:[http://www.zara.com/us/es/gu%C3%ADa-de-compra-c196001.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:51,145] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/es/rebajas/mujer/camisas/crochet/top-bordados-a-contraste-c732012p2709538.html] Parent:[http://www.zara.com/us/es/sale%252Fwoman%252Ftops%252Fview-all%252Fcontrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 15:24:55,731] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/al/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:00,988] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/dz/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:05,730] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/ad/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:10,759] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/am/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:16,014] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/az/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:20,782] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/bh/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:26,313] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/be/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:30,809] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/ba/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:35,777] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/bg/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:41,081] [4  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/ca/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:45,783] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/co/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:50,786] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/cr/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:25:56,086] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/hr/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:00,836] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/cy/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:05,907] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/cz/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:11,126] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/dk/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:15,856] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/de/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:21,204] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/ec/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:25,860] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/eg/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:30,853] [4  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/sv/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:35,883] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/es/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:40,885] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/ic/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:45,888] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/ee/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:51,215] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/fi/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:26:55,895] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/fr/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:00,909] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/mk/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:05,931] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/ge/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:10,908] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/gr/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:15,932] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/gt/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:20,921] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/hn/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:26,036] [4  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/hk/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:30,962] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/hu/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:35,961] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/is/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:40,985] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/in/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:45,958] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/id/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:51,791] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/ie/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:27:56,065] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/il/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:28:01,034] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/it/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:28:05,985] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/jp/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:28:11,020] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/jo/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:28:16,022] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/kz/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:28:21,076] [4  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/kw/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:28:26,050] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/lv/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:28:31,036] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/lb/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 15:28:36,034] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/lt/] Parent:[http://www.zara.com/] Retry:[0]
+[2015-07-08 16:16:51,934] [9  ] [INFO ] - About to crawl site [http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html]
+[2015-07-08 16:16:51,942] [9  ] [INFO ] - Configuration Values:
+[2015-07-08 16:16:51,943] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-07-08 16:16:51,943] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-08 16:16:51,943] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-07-08 16:16:51,943] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-07-08 16:16:51,943] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-08 16:16:51,944] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-07-08 16:16:51,945] [9  ] [INFO ] -   key1: value1
+[2015-07-08 16:16:51,946] [9  ] [INFO ] -   key2: value2
+[2015-07-08 16:16:52,616] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html] Parent:[http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html] Retry:[0]
+[2015-07-08 16:17:12,969] [10 ] [INFO ] - About to crawl site [http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html]
+[2015-07-08 16:17:12,977] [10 ] [INFO ] - Configuration Values:
+[2015-07-08 16:17:12,977] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-07-08 16:17:12,977] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-08 16:17:12,978] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-08 16:17:12,979] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-08 16:17:12,980] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-08 16:17:12,980] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-08 16:17:12,980] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-07-08 16:17:12,980] [10 ] [INFO ] -   key1: value1
+[2015-07-08 16:17:12,980] [10 ] [INFO ] -   key2: value2
+[2015-07-08 16:17:14,374] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html] Parent:[http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html] Retry:[0]
