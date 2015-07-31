@@ -12,5 +12,7 @@ namespace BasicPageCrawler
         internal string itemDescription = "";
         internal string itemImage = "";
         internal string itemPrice = "";
+        internal string shopName = "";
+        internal string url = "";
     }
 }

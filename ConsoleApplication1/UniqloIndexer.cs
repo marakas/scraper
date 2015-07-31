@@ -26,6 +26,17 @@ namespace BasicPageCrawler
                     return true;
                 }
             }
+            var test = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//div[@class='pdp-price-current']");
+            // find the item price - second try
+            priceDivs = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//div[@itemprop='price']");
+            if (priceDivs != null)
+            {
+                foreach (var priceDiv in priceDivs)
+                {
+                    itemPrice = priceDiv.LastChild.InnerHtml;
+                    return true;
+                }
+            }
             return false;
         }
 

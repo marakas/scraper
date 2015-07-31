@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 using Abot.Crawler;
 using Abot.Poco;
 using System.Net;
+using System.Data.SqlClient;
 
 namespace BasicPageCrawler
 {
     class Program
     {
+        public static SqlConnection myConnection;
+    
         static void Main(string[] args)
         {
             Console.WriteLine("howdy!");
@@ -34,19 +37,21 @@ namespace BasicPageCrawler
             crawler.PageCrawlCompletedAsync += crawler_ProcessPageCrawlCompleted;
             crawler.PageCrawlDisallowedAsync += crawler_PageCrawlDisallowed;
             crawler.PageLinksCrawlDisallowedAsync += crawler_PageLinksCrawlDisallowed;
-            /*
-            using (SqlConnection conn = new SqlConnection())
-            {
-                conn.ConnectionString = "Server=[localhost];Database=[database_name];Trusted_Connection=true";
-                // using the code here...
-            }
 
-            using (SqlConnection connection = new SqlConnection("Integrated Security=SSPI;Initial Catalog=Northwind"))
+            myConnection = new SqlConnection("user id=marakas;" +
+                                       "password=M@rakas69!;server=yzf0vdv9dr.database.windows.net;" +
+                                       "Trusted_Connection=False;Encrypt=True;" +
+                                       "database=superfashiondb_db; " +
+                                       "connection timeout=30");
+            try
             {
-                connection.Open();
-                // Pool A is created.
+                myConnection.Open();
+                Console.WriteLine("DB OK!");
             }
-             * */
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
 
             //Start the crawl
             //This is a synchronous call
@@ -104,32 +109,52 @@ namespace BasicPageCrawler
             ClothingItem item = new ClothingItem() ;
             if (indexUniqloPage(crawledPage, ref item))
             {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", item.itemName, item.itemPrice, item.itemImage, item.itemDescription);
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3}, {4}, {5}", item.itemName, item.itemPrice, item.itemImage, item.itemDescription, item.shopName, item.url);
+                insertDB(item);
                 return true;
             }
             if (indexHMPage(crawledPage, ref item))
             {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", item.itemName, item.itemPrice, item.itemImage, item.itemDescription);
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3}, {4}, {5}", item.itemName, item.itemPrice, item.itemImage, item.itemDescription, item.shopName, item.url);
+                insertDB(item);
                 return true;
             }
             if (indexZaraPage(crawledPage, ref item))
             {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3} ", item.itemName, item.itemPrice, item.itemImage, item.itemDescription);
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3}, {4}, {5}", item.itemName, item.itemPrice, item.itemImage, item.itemDescription, item.shopName, item.url);
+                insertDB(item);
                 return true;
             }
+
             return false;
         }
-        
+
+        private static bool insertDB(ClothingItem item)
+        {
+            var cmd = myConnection.CreateCommand();
+            cmd.CommandText = @"INSERT into SuperFashionDB.ShopItems (shopitemname, shopitemdescription, shopitemprice, shopitemurl, ShopName, pricerange, shopitemimgurl, shopitemimageurl ) values (@itemName,@itemDescription,@itemPrice,@url,@shopName, 1, @itemImage, @itemImage)";
+            cmd.Parameters.AddWithValue("@itemName", item.itemName);
+            cmd.Parameters.AddWithValue("@itemDescription", item.itemDescription);
+            cmd.Parameters.AddWithValue("@itemPrice", item.itemPrice);
+            cmd.Parameters.AddWithValue("@url", item.url);
+            cmd.Parameters.AddWithValue("@shopName", item.shopName);
+            cmd.Parameters.AddWithValue("@itemImage", item.itemImage);
+            cmd.ExecuteScalar();
+            return true;
+        }
+
         private static bool indexUniqloPage(CrawledPage pageToIndex, ref ClothingItem item )
         {
             var indexer = new UniqloIndexer(pageToIndex);
-            
+            Console.WriteLine("aa : {0}", pageToIndex.Uri);
             if (indexer.getTitle() && indexer.getPrice() && indexer.getImage() && indexer.getDescription() )
             {
                 item.itemName = indexer.itemName;
                 item.itemPrice = indexer.itemPrice;
                 item.itemImage = indexer.itemImage;
                 item.itemDescription = indexer.itemDescription;
+                item.shopName = "UNIQLO";
+                item.url = pageToIndex.Uri.ToString();
                 return true;
             }
             return false;
@@ -145,6 +170,8 @@ namespace BasicPageCrawler
                 item.itemPrice = indexer.itemPrice;
                 item.itemImage = indexer.itemImage;
                 item.itemDescription = indexer.itemDescription;
+                item.shopName = "H&M";
+                item.url = pageToIndex.Uri.ToString();
                 return true;
             }
             return false;
@@ -160,6 +187,8 @@ namespace BasicPageCrawler
                 item.itemPrice = indexer.itemPrice;
                 item.itemImage = indexer.itemImage;
                 item.itemDescription = indexer.itemDescription;
+                item.shopName = "ZARA";
+                item.url = pageToIndex.Uri.ToString();
                 return true;
             }
             return false;
