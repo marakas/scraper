@@ -13,7 +13,51 @@ namespace BasicPageCrawler
         {
 
         }
-    
+
+        public override bool getType()
+        {
+            var typeLists = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//li[@class='breadcrumb-item']//a");
+            if (typeLists != null)
+            {
+                // get last level of the breadcrumbs for type
+                foreach (var typeList in typeLists)
+                {
+                    itemType = typeList.InnerHtml;
+                }
+                return true;
+            }
+            return false;
+        }
+
+        public override bool getColor()
+        {
+            // find the item color group div
+            var colorImgs = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//ul[@class='color-chips group']//img");
+            if (colorImgs != null)
+            {
+                // Uniqlo has duplicated colors, use dict to get rid 
+                Dictionary<string, int> colorDict = new Dictionary<string, int>();
+
+                foreach (var colorImg in colorImgs)
+                {
+                    try
+                    {
+                        colorDict.Add(colorImg.Attributes["alt"].Value, 1);
+                    } catch (System.ArgumentException) {
+                    // dont care if there is already an item with same key
+                    }  
+                }
+                // add multiple colors as single string - deal with this later
+                foreach(KeyValuePair<string, int> color in colorDict) {
+                    itemColor += color.Key + ", ";
+                }
+                // remove the last ,
+                itemColor = itemColor.Remove(itemColor.Length - 2);
+                return true;
+            }
+            return false;
+        }
+
         public override bool getPrice()
         {
             // find the item price
@@ -93,5 +137,6 @@ namespace BasicPageCrawler
             }
             return false;
         }
+
     }
 }

@@ -14,10 +14,35 @@ namespace BasicPageCrawler
         internal string itemDescription = "";
         internal string itemImage = "";
         internal string itemPrice = "";
+        internal string itemGender = "";
+        internal string itemColor = "";
+        internal string itemType = "";
+        internal string itemBudget = "";
 
         public GenericIndexer(CrawledPage pageToIndex)
         {
             this.pageToIndex = pageToIndex;
+           
+            // gender check
+            itemGender = "male";
+            if (pageToIndex.Uri.AbsoluteUri.Contains("women") || // uniqlo
+                    pageToIndex.Uri.AbsoluteUri.Contains("woman") || // zara
+                    pageToIndex.Uri.AbsoluteUri.Contains("ladies")) itemGender = "female"; // h&m
+           
+        }
+
+        public virtual bool getColor() {
+            return false;
+        }
+
+        public virtual bool getType()
+        {
+            return false;
+        }
+
+        public virtual bool getBudget()
+        {
+            return false;
         }
 
         public virtual bool getPrice() {

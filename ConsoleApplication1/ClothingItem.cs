@@ -14,5 +14,10 @@ namespace BasicPageCrawler
         internal string itemPrice = "";
         internal string shopName = "";
         internal string url = "";
+        internal string itemGender = "";
+        internal string itemColor = "";
+        internal string itemBudget = "";
+        internal string itemType = "";
+
     }
 }

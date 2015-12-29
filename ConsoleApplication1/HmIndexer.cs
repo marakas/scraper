@@ -8,6 +8,40 @@ namespace BasicPageCrawler
         {
         }
 
+        public override bool getType()
+        {
+            var typeLists = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//ul[@class='breadcrumbs']//a");
+            if (typeLists != null)
+            {
+                // get last level of the breadcrumbs for type
+                foreach (var typeList in typeLists)
+                {
+                    itemType = typeList.InnerHtml;
+                }
+                return true;
+            }
+            return false;
+        }
+
+        public override bool getColor()
+        {
+            // find the item color group div
+            var colorImgs = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//ul[@id='options-articles']//span");
+            if (colorImgs != null)
+            {
+
+                foreach (var colorImg in colorImgs)
+                {
+                    itemColor += colorImg.InnerHtml + ", ";
+                }
+
+                // remove the last ,
+                itemColor = itemColor.Remove(itemColor.Length - 2);
+                return true;
+            }
+            return false;
+        }
+
         public override bool getPrice()
         {
             // find the item price

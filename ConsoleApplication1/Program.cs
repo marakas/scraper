@@ -13,6 +13,7 @@ namespace BasicPageCrawler
     class Program
     {
         public static SqlConnection myConnection;
+        public static Dictionary<string, int> garmentTypes; 
     
         static void Main(string[] args)
         {
@@ -20,13 +21,22 @@ namespace BasicPageCrawler
 
             log4net.Config.XmlConfigurator.Configure();
             //PrintDisclaimer();
-
+            
             //Uri uriToCrawl = GetSiteToCrawl(args);
-            //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html");
+            //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html"); // out of stock
+            //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html");
+            //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/");
             //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/women/tops/t-shirts.html");
             //Uri uriToCrawl = new Uri("http://www.hm.com/us/product/77536?article=77536-C");
-            //Uri uriToCrawl = new Uri("http://www.hm.com/us/department/LADIES");
-            Uri uriToCrawl = new Uri("http://www.zara.com/us/en/sale/woman/tops/view-all/contrasting-embroidered-top-c732008p2709538.html");
+            //Uri uriToCrawl = new Uri("http://www.hm.com/us/");
+            //Uri uriToCrawl = new Uri("http://www.hm.com/us/products/men");
+            //Uri uriToCrawl = new Uri("http://www.hm.com/us/products/men/tshirt");
+            //Uri uriToCrawl = new Uri("http://www.hm.com/us/products/ladies");
+            //Uri uriToCrawl = new Uri("http://www.hm.com/us/product/30283?article=30283-J"); // multi-colors
+            Uri uriToCrawl = new Uri("http://www.hm.com/us/product/04252?article=04252-A");
+            //Uri uriToCrawl = new Uri("http://www.zara.com/us/en/man/outerwear/view-all/navy-coat-c764502p3094502.html");
+            //Uri uriToCrawl = new Uri("http://www.zara.com/us/en/sale/man/coats-and-trench-coats/view-all/long-denim-parka-c794501p3276509.html");
+            //Uri uriToCrawl = new Uri("http://www.zara.com/us/en/sale/woman/t-shirts/view-all/crop-t-shirt-c732027p2874029.html"); // multiple colors
             //Uri uriToCrawl = new Uri("http://www.zara.com/us/");
             IWebCrawler crawler;
             crawler = GetDefaultWebCrawler();
@@ -37,6 +47,21 @@ namespace BasicPageCrawler
             crawler.PageCrawlCompletedAsync += crawler_ProcessPageCrawlCompleted;
             crawler.PageCrawlDisallowedAsync += crawler_PageCrawlDisallowed;
             crawler.PageLinksCrawlDisallowedAsync += crawler_PageLinksCrawlDisallowed;
+
+            crawler.ShouldCrawlPage((pageToCrawl, crawlContext) =>
+            {
+                CrawlDecision decision = new CrawlDecision { Allow = true, Reason = "OK" };
+                 if (pageToCrawl.Uri.AbsoluteUri.Contains("hm.com")) {
+                     // only have rules for h&m
+                     decision = new CrawlDecision { Allow = false, Reason = "Not good!" };
+                     if (pageToCrawl.Uri.AbsoluteUri.Contains("http://www.hm.com/us/product/") ||
+                        pageToCrawl.Uri.AbsoluteUri.Contains("http://www.hm.com/us/products/men") ||
+                        pageToCrawl.Uri.AbsoluteUri.Contains("http://www.hm.com/us/products/ladies"))
+                    return new CrawlDecision { Allow = true, Reason = "OK!" };
+                 }
+                
+                return decision;
+            });
 
             myConnection = new SqlConnection("user id=marakas;" +
                                        "password=M@rakas69!;server=yzf0vdv9dr.database.windows.net;" +
@@ -109,19 +134,19 @@ namespace BasicPageCrawler
             ClothingItem item = new ClothingItem() ;
             if (indexUniqloPage(crawledPage, ref item))
             {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3}, {4}, {5}", item.itemName, item.itemPrice, item.itemImage, item.itemDescription, item.shopName, item.url);
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}", item.itemName, item.itemPrice, item.itemImage, item.itemDescription, item.shopName, item.url, item.itemGender, item.itemType, item.itemColor, item.itemBudget);
                 insertDB(item);
                 return true;
             }
             if (indexHMPage(crawledPage, ref item))
             {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3}, {4}, {5}", item.itemName, item.itemPrice, item.itemImage, item.itemDescription, item.shopName, item.url);
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}", item.itemName, item.itemPrice, item.itemImage, item.itemDescription, item.shopName, item.url, item.itemGender, item.itemType, item.itemColor, item.itemBudget);
                 insertDB(item);
                 return true;
             }
             if (indexZaraPage(crawledPage, ref item))
             {
-                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3}, {4}, {5}", item.itemName, item.itemPrice, item.itemImage, item.itemDescription, item.shopName, item.url);
+                Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}, {8}", item.itemName, item.itemPrice, item.itemImage, item.itemDescription, item.shopName, item.url, item.itemGender, item.itemType, item.itemColor, item.itemBudget);
                 insertDB(item);
                 return true;
             }
@@ -132,13 +157,17 @@ namespace BasicPageCrawler
         private static bool insertDB(ClothingItem item)
         {
             var cmd = myConnection.CreateCommand();
-            cmd.CommandText = @"INSERT into SuperFashionDB.ShopItems (shopitemname, shopitemdescription, shopitemprice, shopitemurl, ShopName, pricerange, shopitemimgurl, shopitemimageurl ) values (@itemName,@itemDescription,@itemPrice,@url,@shopName, 1, @itemImage, @itemImage)";
+            cmd.CommandText = @"INSERT into SuperFashionDB.ShopItems (shopitemname, shopitemdescription, shopitemprice, shopitemurl, ShopName, pricerange, shopitemimgurl, shopitemimageurl, shopitemgender, shopitemcolor, shopitemtype, shopitembudget ) values (@itemName,@itemDescription,@itemPrice,@url,@shopName, 1, @itemImage, @itemImage, @itemGender, @itemColor, @itemType, @itemBudget)";
             cmd.Parameters.AddWithValue("@itemName", item.itemName);
             cmd.Parameters.AddWithValue("@itemDescription", item.itemDescription);
             cmd.Parameters.AddWithValue("@itemPrice", item.itemPrice);
             cmd.Parameters.AddWithValue("@url", item.url);
             cmd.Parameters.AddWithValue("@shopName", item.shopName);
             cmd.Parameters.AddWithValue("@itemImage", item.itemImage);
+            cmd.Parameters.AddWithValue("@itemGender", item.itemGender);
+            cmd.Parameters.AddWithValue("@itemColor", item.itemColor);
+            cmd.Parameters.AddWithValue("@itemBudget", item.itemBudget);
+            cmd.Parameters.AddWithValue("@itemType", item.itemType);
             cmd.ExecuteScalar();
             return true;
         }
@@ -147,7 +176,7 @@ namespace BasicPageCrawler
         {
             var indexer = new UniqloIndexer(pageToIndex);
             Console.WriteLine("aa : {0}", pageToIndex.Uri);
-            if (indexer.getTitle() && indexer.getPrice() && indexer.getImage() && indexer.getDescription() )
+            if (indexer.getTitle() && indexer.getPrice() && indexer.getImage() && indexer.getDescription() && indexer.getColor() && indexer.getType())
             {
                 item.itemName = indexer.itemName;
                 item.itemPrice = indexer.itemPrice;
@@ -155,6 +184,11 @@ namespace BasicPageCrawler
                 item.itemDescription = indexer.itemDescription;
                 item.shopName = "UNIQLO";
                 item.url = pageToIndex.Uri.ToString();
+                item.itemGender = indexer.itemGender;
+                item.itemColor = indexer.itemColor;
+                item.itemBudget = indexer.itemBudget;
+                item.itemType = indexer.itemType;
+                
                 return true;
             }
             return false;
@@ -164,7 +198,7 @@ namespace BasicPageCrawler
         {
             var indexer = new HmIndexer(pageToIndex);
 
-            if (indexer.getTitle() && indexer.getPrice() && indexer.getImage() && indexer.getDescription())
+            if (indexer.getTitle() && indexer.getPrice() && indexer.getImage() && indexer.getDescription() && indexer.getColor() && indexer.getType())
             {
                 item.itemName = indexer.itemName;
                 item.itemPrice = indexer.itemPrice;
@@ -172,6 +206,11 @@ namespace BasicPageCrawler
                 item.itemDescription = indexer.itemDescription;
                 item.shopName = "H&M";
                 item.url = pageToIndex.Uri.ToString();
+                item.itemGender = indexer.itemGender;
+               
+                item.itemColor = indexer.itemColor;
+                item.itemBudget = indexer.itemBudget;
+                item.itemType = indexer.itemType;
                 return true;
             }
             return false;
@@ -181,7 +220,7 @@ namespace BasicPageCrawler
         {
             var indexer = new ZaraIndexer(pageToIndex);
 
-            if (indexer.getTitle() && indexer.getPrice() && indexer.getImage() && indexer.getDescription())
+            if (indexer.getTitle() && indexer.getPrice() && indexer.getImage() && indexer.getDescription() && indexer.getColor() && indexer.getType())
             {
                 item.itemName = indexer.itemName;
                 item.itemPrice = indexer.itemPrice;
@@ -189,6 +228,11 @@ namespace BasicPageCrawler
                 item.itemDescription = indexer.itemDescription;
                 item.shopName = "ZARA";
                 item.url = pageToIndex.Uri.ToString();
+                item.itemGender = indexer.itemGender;
+               
+                item.itemColor = indexer.itemColor;
+                item.itemBudget = indexer.itemBudget;
+                item.itemType = indexer.itemType;
                 return true;
             }
             return false;

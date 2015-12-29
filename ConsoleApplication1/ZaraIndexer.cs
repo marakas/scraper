@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Abot.Poco;
+using System.Text.RegularExpressions;
+using HtmlAgilityPack;
 
 namespace BasicPageCrawler
 {
@@ -12,6 +14,42 @@ namespace BasicPageCrawler
         public ZaraIndexer(CrawledPage pageToIndex) : base(pageToIndex)
         {
         }
+
+        public override bool getType()
+        {
+
+            foreach (HtmlNode node in pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//li[@class='current ']")) // NEED THE SPACE!
+            {
+                foreach (HtmlNode node2 in node.SelectNodes("a"))
+                {
+                    itemType = node2.InnerText;
+                }
+            }
+            // zara has a bunch of crap in the text
+            itemType = Regex.Replace(itemType, @"\r\n?|\t", "").Trim();
+            if (itemType != "") return true;
+            return false;
+        }
+
+        public override bool getColor()
+        {
+            // find the item color group div
+            var colorImgs = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//div[@class='imgCont']");
+            if (colorImgs != null)
+            {
+               
+                foreach (var colorImg in colorImgs)
+                {
+                    itemColor += colorImg.Attributes["title"].Value + ", ";
+                }
+                
+                // remove the last ,
+                itemColor = itemColor.Remove(itemColor.Length - 2);
+                return true;
+            }
+            return false;
+        }
+
 
         public override bool getPrice()
         {
