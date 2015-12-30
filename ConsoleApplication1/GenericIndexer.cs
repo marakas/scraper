@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Abot.Poco;
+using System.Text.RegularExpressions;
 
 namespace BasicPageCrawler
 {
@@ -17,7 +18,6 @@ namespace BasicPageCrawler
         internal string itemGender = "";
         internal string itemColor = "";
         internal string itemType = "";
-        internal string itemBudget = "";
 
         public GenericIndexer(CrawledPage pageToIndex)
         {
@@ -28,9 +28,8 @@ namespace BasicPageCrawler
             if (pageToIndex.Uri.AbsoluteUri.Contains("women") || // uniqlo
                     pageToIndex.Uri.AbsoluteUri.Contains("woman") || // zara
                     pageToIndex.Uri.AbsoluteUri.Contains("ladies")) itemGender = "female"; // h&m
-           
         }
-
+        
         public virtual bool getColor() {
             return false;
         }

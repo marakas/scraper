@@ -6,6 +6,7 @@ namespace BasicPageCrawler
     {
         public HmIndexer(CrawledPage pageToIndex) : base(pageToIndex)
         {
+            
         }
 
         public override bool getType()
@@ -82,7 +83,7 @@ namespace BasicPageCrawler
                 {
                     if (imgTag.Attributes["src"].Value != "")
                     {
-                        itemImage = imgTag.Attributes["src"].Value;
+                        itemImage = "http:"+imgTag.Attributes["src"].Value;
                         return true;
                     }
                 }

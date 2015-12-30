@@ -9551,3 +9551,556 @@
 [2015-12-29 11:17:04,904] [9  ] [INFO ] -   key1: value1
 [2015-12-29 11:17:04,904] [9  ] [INFO ] -   key2: value2
 [2015-12-29 11:17:10,794] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.hm.com/us/product/04252?article=04252-A] Parent:[http://www.hm.com/us/product/04252?article=04252-A] Retry:[0]
+[2015-12-30 07:16:33,434] [10 ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-30 07:16:33,454] [10 ] [INFO ] - Configuration Values:
+[2015-12-30 07:16:33,454] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-30 07:16:33,454] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-30 07:16:33,454] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-30 07:16:33,454] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-30 07:16:33,454] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-30 07:16:33,454] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-30 07:16:33,454] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-30 07:16:33,454] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-30 07:16:33,454] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-30 07:16:33,454] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   key1: value1
+[2015-12-30 07:16:33,464] [10 ] [INFO ] -   key2: value2
+[2015-12-30 07:16:33,727] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:18:59,937] [9  ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-30 07:18:59,957] [9  ] [INFO ] - Configuration Values:
+[2015-12-30 07:18:59,957] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-30 07:18:59,957] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   key1: value1
+[2015-12-30 07:18:59,967] [9  ] [INFO ] -   key2: value2
+[2015-12-30 07:19:00,447] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:22:03,728] [9  ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-30 07:22:03,738] [9  ] [INFO ] - Configuration Values:
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-30 07:22:03,738] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   key1: value1
+[2015-12-30 07:22:03,748] [9  ] [INFO ] -   key2: value2
+[2015-12-30 07:22:03,868] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:22:34,972] [10 ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-30 07:22:34,982] [10 ] [INFO ] - Configuration Values:
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   key1: value1
+[2015-12-30 07:22:34,982] [10 ] [INFO ] -   key2: value2
+[2015-12-30 07:22:35,132] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:25:54,444] [9  ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-30 07:25:54,474] [9  ] [INFO ] - Configuration Values:
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   key1: value1
+[2015-12-30 07:25:54,474] [9  ] [INFO ] -   key2: value2
+[2015-12-30 07:25:54,598] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:25:59,833] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/help/shipping.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:29:14,227] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.uniqlo.com/us/store/FSC01010E02.do] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:29:19,979] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/store/FSC05020SCR.do] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:29:24,977] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.uniqlo.com/us/store/FSC05020E02.do] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:29:32,404] [10 ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-30 07:29:32,414] [10 ] [INFO ] - Configuration Values:
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-30 07:29:32,414] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-30 07:29:32,424] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-30 07:29:32,424] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-30 07:29:32,424] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-30 07:29:32,424] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-30 07:29:32,424] [10 ] [INFO ] -   key1: value1
+[2015-12-30 07:29:32,424] [10 ] [INFO ] -   key2: value2
+[2015-12-30 07:29:32,554] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:29:49,875] [9  ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-30 07:29:49,895] [9  ] [INFO ] - Configuration Values:
+[2015-12-30 07:29:49,895] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   key1: value1
+[2015-12-30 07:29:49,905] [9  ] [INFO ] -   key2: value2
+[2015-12-30 07:29:50,045] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:44:24,119] [10 ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-30 07:44:24,139] [10 ] [INFO ] - Configuration Values:
+[2015-12-30 07:44:24,139] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-30 07:44:24,139] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-30 07:44:24,139] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-30 07:44:24,139] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-30 07:44:24,139] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-30 07:44:24,139] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-30 07:44:24,139] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   key1: value1
+[2015-12-30 07:44:24,149] [10 ] [INFO ] -   key2: value2
+[2015-12-30 07:44:24,865] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 07:44:34,257] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/help/shipping.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 18:13:43,691] [10 ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-30 18:13:43,701] [10 ] [INFO ] - Configuration Values:
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   key1: value1
+[2015-12-30 18:13:43,701] [10 ] [INFO ] -   key2: value2
+[2015-12-30 18:13:44,255] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 18:14:42,407] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/help/shipping.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-30 18:14:47,400] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.uniqlo.com/us/store/FSC01010E02.do] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-31 07:22:44,634] [10 ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-31 07:22:44,654] [10 ] [INFO ] - Configuration Values:
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   key1: value1
+[2015-12-31 07:22:44,654] [10 ] [INFO ] -   key2: value2
+[2015-12-31 07:22:45,183] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-31 07:23:15,683] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/help/shipping.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-31 07:23:37,726] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.uniqlo.com/us/store/FSC01010E02.do] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-31 07:23:43,203] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/store/FSC05020SCR.do] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-31 07:26:36,187] [9  ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-31 07:26:36,217] [9  ] [INFO ] - Configuration Values:
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   key1: value1
+[2015-12-31 07:26:36,217] [9  ] [INFO ] -   key2: value2
+[2015-12-31 07:26:36,527] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-31 07:27:06,878] [9  ] [INFO ] - About to crawl site [http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html]
+[2015-12-31 07:27:06,908] [9  ] [INFO ] - Configuration Values:
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   key1: value1
+[2015-12-31 07:27:06,908] [9  ] [INFO ] -   key2: value2
+[2015-12-31 07:27:07,018] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-31 07:27:12,112] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.uniqlo.com/us/help/shipping.html] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-31 07:27:17,109] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.uniqlo.com/us/store/FSC01010E02.do] Parent:[http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html] Retry:[0]
+[2015-12-31 07:29:12,005] [9  ] [INFO ] - About to crawl site [http://www.hm.com/us/product/30283?article=30283-J]
+[2015-12-31 07:29:12,025] [9  ] [INFO ] - Configuration Values:
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   key1: value1
+[2015-12-31 07:29:12,025] [9  ] [INFO ] -   key2: value2
+[2015-12-31 07:29:13,228] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.hm.com/us/product/30283?article=30283-J] Parent:[http://www.hm.com/us/product/30283?article=30283-J] Retry:[0]
+[2015-12-31 07:30:23,428] [9  ] [INFO ] - About to crawl site [http://www.hm.com/us/product/30283?article=30283-J]
+[2015-12-31 07:30:23,438] [9  ] [INFO ] - Configuration Values:
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   key1: value1
+[2015-12-31 07:30:23,438] [9  ] [INFO ] -   key2: value2
+[2015-12-31 07:30:23,658] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.hm.com/us/product/30283?article=30283-J] Parent:[http://www.hm.com/us/product/30283?article=30283-J] Retry:[0]
+[2015-12-31 07:31:10,856] [10 ] [INFO ] - About to crawl site [http://www.hm.com/us/product/30283?article=30283-J]
+[2015-12-31 07:31:10,876] [10 ] [INFO ] - Configuration Values:
+[2015-12-31 07:31:10,876] [10 ] [INFO ] -   Abot Version: 1.5.0.95
+[2015-12-31 07:31:10,876] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-12-31 07:31:10,876] [10 ] [INFO ] -   MaxPagesToCrawl: 10000
+[2015-12-31 07:31:10,876] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-12-31 07:31:10,876] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-12-31 07:31:10,876] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-12-31 07:31:10,876] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-12-31 07:31:10,876] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 5000
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   key1: value1
+[2015-12-31 07:31:10,886] [10 ] [INFO ] -   key2: value2
+[2015-12-31 07:31:11,081] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.hm.com/us/product/30283?article=30283-J] Parent:[http://www.hm.com/us/product/30283?article=30283-J] Retry:[0]
+[2015-12-31 07:31:19,971] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.hm.com/us/products/ladies] Parent:[http://www.hm.com/us/product/30283?article=30283-J] Retry:[0]

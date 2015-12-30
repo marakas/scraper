@@ -13,6 +13,7 @@ namespace BasicPageCrawler
     {
         public ZaraIndexer(CrawledPage pageToIndex) : base(pageToIndex)
         {
+            
         }
 
         public override bool getType()
