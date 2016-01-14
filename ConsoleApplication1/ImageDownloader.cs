@@ -72,6 +72,7 @@ namespace BasicPageCrawler
             // image file might be redirected to a 404-page, which would
             // yield the StatusCode "OK", even though the image was not
             // found.
+            
             if ((response.StatusCode == HttpStatusCode.OK ||
                 response.StatusCode == HttpStatusCode.Moved ||
                 response.StatusCode == HttpStatusCode.Redirect) &&
@@ -79,16 +80,23 @@ namespace BasicPageCrawler
             {
 
                 // if the remote file was found, download it
-                using (Stream inputStream = response.GetResponseStream())
-                using (Stream outputStream = File.OpenWrite(filePath + fileName))
+                try
                 {
-                    byte[] buffer = new byte[4096];
-                    int bytesRead;
-                    do
+                    using (Stream inputStream = response.GetResponseStream())
+                    using (Stream outputStream = File.OpenWrite(filePath + fileName))
                     {
-                        bytesRead = inputStream.Read(buffer, 0, buffer.Length);
-                        outputStream.Write(buffer, 0, bytesRead);
-                    } while (bytesRead != 0);
+                        byte[] buffer = new byte[4096];
+                        int bytesRead;
+                        do
+                        {
+                            bytesRead = inputStream.Read(buffer, 0, buffer.Length);
+                            outputStream.Write(buffer, 0, bytesRead);
+                        } while (bytesRead != 0);
+                    }
+                }
+                catch (Exception) 
+                { 
+                    // TODO real exception handling 
                 }
                 return true;
             }

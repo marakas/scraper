@@ -13,7 +13,7 @@ namespace BasicPageCrawler
     class Program
     {
         public static SqlConnection myConnection;
-        public static Dictionary<string, int> garmentTypes; 
+        //public static Dictionary<string, int> garmentTypes; 
     
         static void Main(string[] args)
         {
@@ -21,24 +21,31 @@ namespace BasicPageCrawler
 
             log4net.Config.XmlConfigurator.Configure();
             //PrintDisclaimer();
-            
+
             //Uri uriToCrawl = GetSiteToCrawl(args);
             //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/product/women-airism-tank-top-143149.html"); // out of stock
             //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/product/women-extra-fine-cotton-long-sleeve-long-shirt-167548001.html");
-            //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/");
+            //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/women.html");  // starting point for crawl - WOMEN
+            //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/men.html");  // starting point for crawl - MEN
             //Uri uriToCrawl = new Uri("http://www.uniqlo.com/us/women/tops/t-shirts.html");
             //Uri uriToCrawl = new Uri("http://www.hm.com/us/product/77536?article=77536-C");
             //Uri uriToCrawl = new Uri("http://www.hm.com/us/");
-            //Uri uriToCrawl = new Uri("http://www.hm.com/us/products/men");
+            //Uri uriToCrawl = new Uri("http://www.hm.com/us/products/men"); // starting point for crawl - men
             //Uri uriToCrawl = new Uri("http://www.hm.com/us/products/men/tshirt");
-            //Uri uriToCrawl = new Uri("http://www.hm.com/us/products/ladies");
-            Uri uriToCrawl = new Uri("http://www.hm.com/us/product/30283?article=30283-J"); // multi-colors
+            //Uri uriToCrawl = new Uri("http://www.hm.com/us/products/ladies"); // starting point for crawl - women
+            //Uri uriToCrawl = new Uri("http://www.hm.com/us/product/30283?article=30283-J"); // multi-colors
             //Uri uriToCrawl = new Uri("http://www.hm.com/us/product/04252?article=04252-A");
             //Uri uriToCrawl = new Uri("http://www.zara.com/us/en/man/outerwear/view-all/navy-coat-c764502p3094502.html");
             //Uri uriToCrawl = new Uri("http://www.zara.com/us/en/sale/man/coats-and-trench-coats/view-all/long-denim-parka-c794501p3276509.html");
             //Uri uriToCrawl = new Uri("http://www.zara.com/us/en/sale/woman/t-shirts/view-all/crop-t-shirt-c732027p2874029.html"); // multiple colors
-            //Uri uriToCrawl = new Uri("http://www.zara.com/us/");
-            IWebCrawler crawler;
+            Uri uriToCrawl = new Uri("http://www.zara.com/us/en/collection-ss16/woman/outerwear/view-all-c719012.html"); // crawl start point
+            //Uri uriToCrawl = new Uri("http://www.zara.com/us/en/collection-ss16/man/jackets/bomber-jacket-c586542p3268146.html");
+
+            //Uri uriToCrawl = new Uri("http://www.zara.com/us/en/collection-ss16/woman/outerwear/view-all/wool-coat-with-lapels-c719012p3186217.html");
+            //Uri uriToCrawl = new Uri("http://www.zara.com/us/en/collection-ss16/woman/bags-c358019.html");
+     
+
+                 IWebCrawler crawler;
             crawler = GetDefaultWebCrawler();
             
             //Subscribe to any of these asynchronous events, there are also sychronous versions of each.
@@ -51,15 +58,41 @@ namespace BasicPageCrawler
             crawler.ShouldCrawlPage((pageToCrawl, crawlContext) =>
             {
                 CrawlDecision decision = new CrawlDecision { Allow = true, Reason = "OK" };
-                 if (pageToCrawl.Uri.AbsoluteUri.Contains("hm.com")) {
-                     // only have rules for h&m
-                     decision = new CrawlDecision { Allow = false, Reason = "Not good!" };
-                     if (pageToCrawl.Uri.AbsoluteUri.Contains("http://www.hm.com/us/product/") ||
-                        pageToCrawl.Uri.AbsoluteUri.Contains("http://www.hm.com/us/products/men") ||
-                        pageToCrawl.Uri.AbsoluteUri.Contains("http://www.hm.com/us/products/ladies"))
-                    return new CrawlDecision { Allow = true, Reason = "OK!" };
-                 }
-                
+                // H&M rules
+                if (pageToCrawl.Uri.AbsoluteUri.Contains("hm.com")) {
+                    // only have rules for h&m
+                    decision = new CrawlDecision { Allow = false, Reason = "Not good!" };
+                    if (pageToCrawl.Uri.AbsoluteUri.Contains("http://www.hm.com/us/product/") ||
+                    pageToCrawl.Uri.AbsoluteUri.Contains("http://www.hm.com/us/products/men") ||
+                    pageToCrawl.Uri.AbsoluteUri.Contains("http://www.hm.com/us/products/ladies"))
+                return new CrawlDecision { Allow = true, Reason = "OK!" };
+                }
+
+                // UNIQLO rules
+                if (pageToCrawl.Uri.AbsoluteUri.Contains("uniqlo"))
+                {
+                    // need some for uniqlo too
+                    decision = new CrawlDecision { Allow = false, Reason = "Not good!" };
+                    if (pageToCrawl.Uri.AbsoluteUri.Contains("http://www.uniqlo.com/us/women.html") ||
+                    pageToCrawl.Uri.AbsoluteUri.Contains("http://www.uniqlo.com/us/women/") ||
+                    pageToCrawl.Uri.AbsoluteUri.Contains("http://www.uniqlo.com/us/product/") ||
+                    pageToCrawl.Uri.AbsoluteUri.Contains("http://www.uniqlo.com/us/men.html") ||
+                    pageToCrawl.Uri.AbsoluteUri.Contains("http://www.uniqlo.com/us/men/"))
+                        return new CrawlDecision { Allow = true, Reason = "OK!" };
+                }
+
+                // ZARA rules
+                if (pageToCrawl.Uri.AbsoluteUri.Contains("zara"))
+                {
+                    // need some for zara too
+                    decision = new CrawlDecision { Allow = false, Reason = "Not good!" };
+                    if (pageToCrawl.Uri.AbsoluteUri.Contains("http://www.zara.com/us/en/collection-ss16/") ||
+                    pageToCrawl.Uri.AbsoluteUri.Contains("http://www.zara.com/us/en/sale/woman") ||
+                    pageToCrawl.Uri.AbsoluteUri.Contains("http://www.zara.com/us/en/sale/man/") ||
+                    pageToCrawl.Uri.AbsoluteUri.Contains("http://www.zara.com/us/en/collection-ss16/man/")) 
+                        return new CrawlDecision { Allow = true, Reason = "OK!" };
+                }
+             
                 return decision;
             });
 
@@ -152,6 +185,8 @@ namespace BasicPageCrawler
             if (indexZaraPage(crawledPage, ref item))
             {
                 Console.WriteLine("Found clothing item : {0}, {1}, {2}, {3}, {4}, {5}, {6}, {7}", item.itemName, item.itemPrice, item.itemImage, item.itemDescription, item.shopName, item.url, item.itemGender, item.itemType, item.itemColor);
+                item.generateImageFileName(".jpg");
+                downloader.DownloadRemoteImageFile(item.itemImage, item.itemFileName);
                 insertDB(item);
                 return true;
             }
@@ -232,7 +267,6 @@ namespace BasicPageCrawler
                 item.shopName = "ZARA";
                 item.url = pageToIndex.Uri.ToString();
                 item.itemGender = indexer.itemGender;
-               
                 item.itemColor = indexer.itemColor;
                 item.itemType = indexer.itemType;
                 

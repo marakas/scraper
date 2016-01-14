@@ -1,0 +1,1 @@
+﻿select shopItemType from superfashiondb.shopitems group by shopitemtype;

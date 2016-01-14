@@ -1,0 +1,77 @@
+﻿@model IEnumerable<sfdb.Models.ShopItems>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.shopItemFileName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.shopItemName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.shopItemDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.shopItemPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.shopName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.shopItemGender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.shopItemColor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.shopItemType)
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img src="https://portalvhds2s7d1dnvsbrt5.blob.core.windows.net/images/@Html.DisplayFor(modelItem => item.shopItemFileName)" class="img-thumbnail" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.shopItemName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.shopItemDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.shopItemPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.shopName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.shopItemGender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.shopItemColor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.shopItemType)
+        </td>
+        
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

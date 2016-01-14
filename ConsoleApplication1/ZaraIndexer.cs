@@ -18,19 +18,26 @@ namespace BasicPageCrawler
 
         public override bool getType()
         {
-
-            foreach (HtmlNode node in pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//li[@class='current ']")) // NEED THE SPACE!
-            {
-                foreach (HtmlNode node2 in node.SelectNodes("a"))
-                {
-                    itemType = node2.InnerText;
-                }
+            // get the first link in any tag that has "current selected" class - the menu item open on this page
+            var nodes = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//*[@class='current selected']/a");
+            
+            if(null == nodes || nodes.Count == 0) { // wasn't found - must be a top-level category
+                // do something
+                
             }
+            itemType = nodes[0].InnerHtml; // get first element
             // zara has a bunch of crap in the text
-            itemType = Regex.Replace(itemType, @"\r\n?|\t", "").Trim();
+            itemType = cleanUp(itemType);
+            if (itemType == "View all") // need to go up a category to make any sense
+            {
+                nodes = pageToIndex.HtmlDocument.DocumentNode.SelectNodes("//ul[@class='current']/li[@class='current  ']/ul/li/a");
+                itemType = cleanUp(nodes[0].InnerHtml);
+            }
             if (itemType != "") return true;
             return false;
         }
+
+        
 
         public override bool getColor()
         {
@@ -77,7 +84,7 @@ namespace BasicPageCrawler
                 {
                     if (imgTag.Attributes["data-src"].Value != "")
                     {
-                        itemImage = imgTag.Attributes["data-src"].Value;
+                        itemImage = "http:" + imgTag.Attributes["data-src"].Value;
                         return true;
                     }
                 }

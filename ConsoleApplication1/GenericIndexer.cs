@@ -65,7 +65,7 @@ namespace BasicPageCrawler
             {
                 foreach (var imgArticle in imgArticles)
                 {
-                    itemDescription = imgArticle.InnerHtml;
+                    itemDescription = cleanUp(imgArticle.InnerHtml);
                     return true;
                 }
             }
@@ -101,6 +101,13 @@ namespace BasicPageCrawler
                 }
             }
             return false;
+        }
+
+        public string cleanUp(string input)
+        {
+            if (String.IsNullOrEmpty(input))
+                throw new ArgumentException("ARGH!");
+            return Regex.Replace(input, @"\r\n?|\t", "").Trim();
         }
     }
 }
